@@ -9,7 +9,17 @@
 title: BlogBox
 
 # Below the site title
-tagline: Tales of a digital nomad.
+tagline: 
+
+# Search for Recipes
+
+
+<form action="https://duckduckgo.com/" method="get" style="display: flex; gap: 8px; align-items: center; max-width: 400px;">
+    <input type="text" name="q" placeholder="Search..." style="padding: 10px; flex: 1; border: 1px solid #ccc; border-radius: 4px;">
+    <button type="submit" style="padding: 10px; border: none; background-color: #007bff; color: white; border-radius: 4px; cursor: pointer;">
+        Search
+    </button>
+</form>
 
 # Site logo
 logo:
