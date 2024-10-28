@@ -1,5 +1,29 @@
 <aside class="footer-widgets">
 
+        {% if site.ddg_url %}
+    <div id="footer-fullwidth" class="footer-fullwidth">
+        <section class="widget widget-subscribe">
+            <div class="inner">
+                <h2 class="widget-title">{{ site.title }} Search</h2>
+                <p>Search 2.</p>
+                <!-- Begin MailChimp Signup Form -->
+                <div id="mc_embed_signup">
+                    <form action="{{ site.mailchimp_url }}" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                        <label for="mce-EMAIL" class="screen-reader-text">Email Address</label>
+                        <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+                        <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button">
+                    </form>
+                </div>
+                <!--End mc_embed_signup-->
+            </div><!-- .inner -->
+        </section><!-- .widget -->
+    </div><!-- .footer-fullwidth -->
+    {% endif %}
+
+
+
+
+    
     {% if site.mailchimp_url %}
     <div id="footer-fullwidth" class="footer-fullwidth">
         <section class="widget widget-subscribe">
