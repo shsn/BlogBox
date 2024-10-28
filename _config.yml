@@ -53,6 +53,7 @@ banner_url: #
 
 # Footer newsletter widget - add your form action url for MailChimp signup form here
 mailchimp_url: "https://duckduckgo.com"
+ddg_url: "https://duckduckgo.com"
 
 # Social links in the site footer
 twitter_username: "username"
