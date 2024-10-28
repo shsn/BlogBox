@@ -52,7 +52,7 @@ banner_image: banner.jpg
 banner_url: #
 
 # Footer newsletter widget - add your form action url for MailChimp signup form here
-mailchimp_url: "//justgoodthemes.us3.list-manage.com/subscribe/post?u=78f1bab16028354caeb23aecd&amp;id=4a7330d117"
+mailchimp_url: "https://duckduckgo.com"
 
 # Social links in the site footer
 twitter_username: "username"
