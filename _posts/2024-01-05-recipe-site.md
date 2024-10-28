@@ -10,13 +10,16 @@ tags: [Recipe]
 <!--more-->
 
 
-# Recipe Site
-
-# Getting Started
-
-Paprika's built-in web browser lets you search the internet for recipes to download. Our natural language processing engine can automatically download recipes written in English from most websites.
 
 # Search for Recipes
+
+
+<form action="https://duckduckgo.com/" method="get" style="display: flex; gap: 8px; align-items: center; max-width: 400px;">
+    <input type="text" name="q" placeholder="Search..." style="padding: 10px; flex: 1; border: 1px solid #ccc; border-radius: 4px;">
+    <button type="submit" style="padding: 10px; border: none; background-color: #007bff; color: white; border-radius: 4px; cursor: pointer;">
+        Search
+    </button>
+</form>
 
 **Note** You can always return to this search page using the first bookmark in Paprika's bookmarks list.
 
