@@ -2,7 +2,7 @@
 layout: post
 title:  "Recipe Site"
 date:   2024-01-05
-featured_image: recipe.jpg
+featured_image: journey.jpg
 tags: [Recipe]
 ---
 
